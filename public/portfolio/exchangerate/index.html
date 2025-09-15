@@ -56,20 +56,20 @@ sns.lineplot(data=rolling_avg.reset_index(), x=&#39;index&#39;, y=0).set(title=&
   <meta name="twitter:title" content="Exchange Rate">
   <meta name="twitter:description" content="from fredapi import Fred import pandas as pd import seaborn as sns import keys import statsmodels.api as sm import statsmodels.formula.api as smf fred = Fred(keys.api_key) data = fred.get_series(&#39;DEXUSEU&#39;) data = pd.DataFrame(data) print(data.tail()) 02025-05-12 1.11062025-05-13 1.11762025-05-14 1.12062025-05-15 1.11892025-05-16 1.1141sns.set_theme(style=&#34;darkgrid&#34;) sns.lineplot(data=data.reset_index(), x=&#39;index&#39;, y=0).set(title=&#39;FRED Data Series&#39;, xlabel=&#39;Date&#39;, ylabel=&#39;Value&#39;) [Text(0.5, 1.0, &#39;FRED Data Series&#39;),Text(0.5, 0, &#39;Date&#39;),Text(0, 0.5, &#39;Value&#39;)]window_size = 20 rolling_avg = data.rolling(window=window_size).mean() sns.lineplot(data=rolling_avg.reset_index(), x=&#39;index&#39;, y=0).set(title=&#39;FRED Data Series&#39;, xlabel=&#39;Date&#39;, ylabel=&#39;Value&#39;) [Text(0.5, 1.0, &#39;FRED Data Series&#39;),Text(0.5, 0, &#39;Date&#39;),Text(0, 0.5, &#39;Value&#39;)]">
 
-<meta property="og:url" content="http://localhost:1313/portafolio/exchangerate/">
+<meta property="og:url" content="http://localhost:1313/portfolio/exchangerate/">
   <meta property="og:site_name" content="Carlos">
   <meta property="og:title" content="Exchange Rate">
   <meta property="og:description" content="from fredapi import Fred import pandas as pd import seaborn as sns import keys import statsmodels.api as sm import statsmodels.formula.api as smf fred = Fred(keys.api_key) data = fred.get_series(&#39;DEXUSEU&#39;) data = pd.DataFrame(data) print(data.tail()) 02025-05-12 1.11062025-05-13 1.11762025-05-14 1.12062025-05-15 1.11892025-05-16 1.1141sns.set_theme(style=&#34;darkgrid&#34;) sns.lineplot(data=data.reset_index(), x=&#39;index&#39;, y=0).set(title=&#39;FRED Data Series&#39;, xlabel=&#39;Date&#39;, ylabel=&#39;Value&#39;) [Text(0.5, 1.0, &#39;FRED Data Series&#39;),Text(0.5, 0, &#39;Date&#39;),Text(0, 0.5, &#39;Value&#39;)]window_size = 20 rolling_avg = data.rolling(window=window_size).mean() sns.lineplot(data=rolling_avg.reset_index(), x=&#39;index&#39;, y=0).set(title=&#39;FRED Data Series&#39;, xlabel=&#39;Date&#39;, ylabel=&#39;Value&#39;) [Text(0.5, 1.0, &#39;FRED Data Series&#39;),Text(0.5, 0, &#39;Date&#39;),Text(0, 0.5, &#39;Value&#39;)]">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="portafolio">
+    <meta property="article:section" content="portfolio">
     <meta property="article:published_time" content="2024-02-02T04:14:54-08:00">
     <meta property="article:modified_time" content="2024-02-02T04:14:54-08:00">
 
 
 
 
-<link rel="canonical" href="http://localhost:1313/portafolio/exchangerate/">
+<link rel="canonical" href="http://localhost:1313/portfolio/exchangerate/">
 
 
 <link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -175,7 +175,7 @@ sns.lineplot(data=rolling_avg.reset_index(), x=&#39;index&#39;, y=0).set(title=&
   <article>
     <header>
       <h1 class="title">
-        <a class="title-link" href="http://localhost:1313/portafolio/exchangerate/">
+        <a class="title-link" href="http://localhost:1313/portfolio/exchangerate/">
           Exchange Rate
         </a>
       </h1>
